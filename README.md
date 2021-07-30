@@ -83,14 +83,14 @@ brew install cmake
 ```
 ## Step3: Add new coin in coin type
 
-In this step please find the this directory 
+In this step please find this file
 
 ```ruby
-include/TrusWalletCore/TWCoinType
+include/TrusWalletCore/TWCoinType.h
 ```
 add the specific type name with coinId in step 1
 
-IE: TWCoinType.h
+IE: TWCoinTypeBitcoinTestnet = 1
 
 ## Step4: Run sh to build library 
 
